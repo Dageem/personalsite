@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 60px;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.name {
+  font-size: 1rem;
+  padding: 0em 1em;
+}
+body {
+  padding-top: 60px;
+  background-image: url(https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/48588/article_aligned%402x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0px 16px;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.quote {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  color: green;
+  text-shadow: 1px 1px 2px black;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+}
+.Main {
+  position: relative;
+  min-height: 100vh;
+}
+.Main h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: wheat;
+}
+
+.Main h2 {
+  text-align: center;
+  color: bisque;
+}
+
+.media {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+}
+footer {
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 50px;
+  background-color: black;
+  z-index: 99;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.head {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: wheat;
+}
+
+.project {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  width: 95%;
+  background: yellow;
+  color: #222;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.project-name {
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ccc;
+}
+img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 0;
+}
+
+.about-main> div>h1 {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
