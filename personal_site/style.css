@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 60px;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: .5px;
+  padding: 0 10px;
+}
+a:after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: .3s;
+}
+a:hover:after {
+  width: 100%;
+}
+.name {
+  font-size: 1rem;
+  padding: 0em 1em;
+}
+body {
+  padding-top: 60px;
+  background-image: url(https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/48588/article_aligned%402x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0px 16px;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.quote {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  color: green;
+  text-shadow: 1px 1px 2px black;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+}
+.Main {
+  position: relative;
+  min-height: 100vh;
+}
+.Main h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: wheat;
+}
+
+.Main h2 {
+  text-align: center;
+  color: bisque;
+}
+
+.media {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+}
+footer {
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 50px;
+  background-color: black;
+  z-index: 99;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.head {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: wheat;
+}
+
+.project {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  width: 95%;
+  background: yellow;
+  color: #222;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.project-name {
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ccc;
+}
+img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 0;
+}
+
+.about-main> div>h1 {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+}
+
+form {
+  margin: 35px;
+
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+
+}
